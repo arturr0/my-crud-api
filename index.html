@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API</title>
+</head>
+<body>
+    <h1>WAREHOUSE</h1>
+    <button id="get-button">VIEW PRODUCTS</button>
+    <div style="display: flex;">
+    <form id="create-form">
+        <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column;">
+            <div style="margin-right: 10px; margin-top: 9px;">New Product's Name</div>
+            <div style="margin-right: 8px; margin-top: 4px; margin-bottom: 4px;">New Product's Quantity</div>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <input type="text" id="create-input">
+            <input type="text" id="quantity" style="margin-top: 3px;">
+        </div>
+        
+        </div>
+        <button>CREATE PRODUCT</button>    
+    </form>
+</div>
+    <hr style="width: 500px; margin-left: 0; margin-top: 10px; border-top: 1px solid black;">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Actions</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="p5.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="scripts.js"></script>
+    <script src="chart.js"></script>
+</body>
+</html>
